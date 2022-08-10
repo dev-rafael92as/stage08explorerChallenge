@@ -4,14 +4,15 @@
   "description": "Challenge API of stage 08 on explorer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dev-rafael92as/stage08explorerChallenge.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rafael Barros",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dev-rafael92as/stage08explorerChallenge/issues"
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/dev-rafael92as/stage08explorerChallenge#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
